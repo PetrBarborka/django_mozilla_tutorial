@@ -1,0 +1,29 @@
+.sidebar-nav {
+  margin-top: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+@-webkit-keyframes demo {
+  0% {
+    color: Black;
+    opacity:1;
+  }
+  42% {
+    color: Red;
+  }
+  77% {
+    color: Cyan;
+  }
+  100% {
+    color: #777;
+  }
+}
+
+
+.epilepsy {
+  -webkit-animation-name: demo;
+  -webkit-animation-duration: 450ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+}    
